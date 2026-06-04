@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 log_dir="/var/log/nginx/"
 Archive_dir="/var/log/nginx/archive"
 find $log_dir -name "*.log" -mtime +30 -exec mv {} $Archive_dir \;

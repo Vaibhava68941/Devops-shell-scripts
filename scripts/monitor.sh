@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ex
+
 cpu_threshold=80
 mem_threshold=80  
 

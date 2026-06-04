@@ -1,6 +1,7 @@
 #!/bin/bash
-#
-#author:vaibhav kamble
+#date:29 April 2026 
+#author:vaibhav kamble 
+#Script to check Mysql and SSH services are up
 
 services=("mysql" "ssh")
 for service in "${services[@]}"; do

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 create_user()
 {
 read -p "Enter the username: " username

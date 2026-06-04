@@ -2,6 +2,8 @@
 #This script monitors system logs and reports error counts
 #Date:4/05/2026
 
+set -euo pipefail
+
 Log_File="/var/log/syslog"
 REPORT_File="/opt/daily_reports.txt"         
 Error_threshold=2   
